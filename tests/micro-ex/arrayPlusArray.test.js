@@ -1,5 +1,5 @@
 import { describe, it } from "vitest";
-import { arrSum } from '../../src/micro-ex/arrayPlusArray';
+import { arrSum } from '../../src/micro-ex/arrayPlusArray.js';
 
 describe('Fundamentals level 1 - Array Plus Array', () => {
     it.skip('should return 21', () => {

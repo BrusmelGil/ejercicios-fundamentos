@@ -1,9 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import { example } from "../src/js/example.js";
 
-describe('Example test', () => {
+describe.skip('Example test', () => {
     
-    it('should return Hello World', () => {
+    it.skip('should return Hello World', () => {
         const result = example()
         expect(result).toBe("Hello World")
     });

@@ -1,29 +1,33 @@
-export function returnHello() {
-    /* Completa la function */
+export function returnHello(text) {
+    return 'Hello'
+    
 
 }
 
-export function returnAString() {
-    /* Completa la function */
+export function returnAString(text) {
+    return 'Hello World'
 
 }
 
 export function concatenateStrings() {
     const firstWord = 'I';
     const secondWord = 'Love';
-    /* Completa la function */
+    const thirdWord = ' JS';
+    return firstWord.concat(' ', secondWord, thirdWord )
 
 }
 
 export function giveOneLetter() {
     const dog = 'dog';
-    /* Completa la function */
+    return dog.substr(-1)
 }
 
 export function giveTheIndexOfWord() {
     const wordToSearch = 'Butterfly';
     const phrase = "Once upon a time!!!";
-    /* Completa la function */
+
+
+    return 
 }
 
 export function replaceFishWord() {

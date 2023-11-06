@@ -3,25 +3,25 @@ import { concatenateStrings, giveAllLettersInUppercase, giveOneLetter, giveTheIn
 
 describe('String Exercises', () => {
 
-    it.skip('should say Hello', () => {
+    it('should say Hello', () => {
         expect(returnHello()).toBe('Hello');
     });
 
-    it.skip('should return Hello World', () => {
+    it('should return Hello World', () => {
         const helloWorld = "Hello World"
         const result = returnAString(helloWorld);
         expect(result).toBe('Hello World');
     });
 
-    it.skip('should be return I Love JS', () => {
+    it('should be return I Love JS', () => {
         expect(concatenateStrings()).toBe('I Love JS');
     });
 
-    it.skip('should return letter g', () => {
+    it('should return letter g', () => {
         expect(giveOneLetter()).toBe('g');
     });
 
-    it.skip('should return -1', () => {
+    it('should return -1', () => {
         expect(giveTheIndexOfWord()).toEqual(-1);
     });
 

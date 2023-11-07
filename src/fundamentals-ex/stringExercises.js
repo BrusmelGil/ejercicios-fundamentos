@@ -25,23 +25,25 @@ export function giveOneLetter() {
 export function giveTheIndexOfWord() {
     const wordToSearch = 'Butterfly';
     const phrase = "Once upon a time!!!";
+return phrase.indexOf(wordToSearch);
 
-
-    return 
 }
 
 export function replaceFishWord() {
     let phrase = 'Give a Man a Fish';
-    /* Completa la function */
+
+    return phrase.replace('Fish', 'Pussy Cat');
 }
 
 export function giveAllLettersInUppercase() {
     let phrase = 'Ride Him, Cowboy!';
-    /* Completa la function */
+phrase = phrase.substr(0, phrase.length -1);
+    return phrase.toUpperCase();
 }
 
 export function removeWhiteSpaces() {
     let phrase = '    Hands Down    ';
-    /* Completa la function */
+    return phrase.trim();
+;
 
 }

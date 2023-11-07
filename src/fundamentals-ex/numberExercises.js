@@ -1,6 +1,6 @@
 
 export function checkVariable(number) {
-
+return typeof number
 }
 
 export function checkIfIsInteger(number) {

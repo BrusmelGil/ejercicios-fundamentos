@@ -3,11 +3,11 @@ import { checkIfIsInteger, checkIfNumbIsDivisibleByThree, checkIfNumberIsInfinit
 
 describe('Numbers', () => {
 
-    it.skip('should return "number"', () => {        
+    it('should return "number"', () => {        
         expect(checkVariable(1)).toBe("number");
     });
 
-    it.skip('should return false if is not an integer', () => {
+    it('should return false if is not an integer', () => {
         expect(checkIfIsInteger(2.3)).toBe(false);
     });
 

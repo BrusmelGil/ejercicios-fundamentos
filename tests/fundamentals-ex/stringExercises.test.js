@@ -25,15 +25,15 @@ describe('String Exercises', () => {
         expect(giveTheIndexOfWord()).toEqual(-1);
     });
 
-    it.skip('should return "Give a Man a Pussy Cat" ', () => {
+    it('should return "Give a Man a Pussy Cat" ', () => {
         expect(replaceFishWord()).toBe('Give a Man a Pussy Cat');
     });
 
-    it.skip('should return "RIDE HIM, COWBOY!"', () => {
+    it('should return "RIDE HIM, COWBOY!"', () => {
         expect(giveAllLettersInUppercase()).toBe('RIDE HIM, COWBOY');
     });
 
-    it.skip('should return "Hands Down"', () => {
+    it('should return "Hands Down"', () => {
         expect(removeWhiteSpaces()).toBe('Hands Down');
     });
 });

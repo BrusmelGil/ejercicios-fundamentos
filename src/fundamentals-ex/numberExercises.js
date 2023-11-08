@@ -4,35 +4,40 @@ return typeof number
 }
 
 export function checkIfIsInteger(number) {
+return Number.isInteger(number)
+}
+
+export function checkIfNumberIsInfinite(number) {
+if (Number.isFinite(number)) {
+    return "Number is finite";
+} else {
+    return "Number is Infinite";
+}
+}
+
+export function sum(numb1,numb2) {
+    return numb1 + numb2;
 
 }
 
-export function checkIfNumberIsInfinite() {
-    /* Tendrás que utilizar un condicional / if ... */
+export function subtract(numb1) {
+return numb1 - 25;
 
 }
 
-export function sum() {
-    /* Completa la function utilizando el operador de suma + */
+export function multiply(numbOne) {
+return numbOne * 5;
 
 }
 
-export function subtract() {
-    /* Completa la function utilizando el operador de sustracción - */
+export function divide(numbOne) {
+return numbOne / 2
 
 }
 
-export function multiply() {
-    /* Completa la function utilizando el operador de sustracción - */
-
+export function checkIfNumbIsDivisibleByThree(numb1) {
+if (numb1 % 3 === 0) {
+    return 'Number is divisible by 3'
 }
-
-export function divide() {
-    /* Completa la function utilizando el operador de división / */
-
-}
-
-export function checkIfNumbIsDivisibleByThree() {
-    /* Completa la function utilizando el operador modulus y utiliza el conditional if() */
 
 }

@@ -11,7 +11,7 @@ describe('Numbers', () => {
         expect(checkIfIsInteger(2.3)).toBe(false);
     });
 
-    it.skip('should return "Number is Infinite"', () => {
+    it('should return "Number is Infinite"', () => {
         const number = 5 * Infinity ;
         expect(checkIfNumberIsInfinite(number)).toBe("Number is Infinite");
     });
@@ -19,28 +19,28 @@ describe('Numbers', () => {
 });
 
 describe('Arithmetic operators', () => {
-    it.skip('should return 25', () => {
+    it('should return 25', () => {
         const numb1 = 10;
         const numb2 = 15;
         expect(sum(numb1,numb2)).toBe(25);
     });
 
-    it.skip('should return 30 after subtract', () => {
+    it('should return 30 after subtract', () => {
         const numb1 = 55;
         expect(subtract(numb1)).toBe(30);
     });
 
-    it.skip('should return 15 after multiply', () => {
+    it('should return 15 after multiply', () => {
         const numb1 = 3;
         expect(multiply(numb1)).toBe(15);
     });
 
-    it.skip('should return 25 after divide', () => {
+    it('should return 25 after divide', () => {
         const numbOne = 50;
         expect(divide(numbOne)).toBe(25);
     });
 
-    it.skip('should return 0 after use modulus operator', () => {
+    it('should return 0 after use modulus operator', () => {
         const numb1 = 3;
         expect(checkIfNumbIsDivisibleByThree(numb1)).toBe('Number is divisible by 3');
     });

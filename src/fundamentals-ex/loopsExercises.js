@@ -1,14 +1,18 @@
 export function countdown() {
     let count = 10;
-    /* Utilizando el bucle while completa la function y devuelve GO cuando el contador llegue a 0. Caution: ten cuidado de no generar un bucle infinito */
+
+    while (count < 10 === 0) {
+        count--;
+        countdown += count;
+    }
+
+    return 'GO'
 
 }
 
 export function createNumberList() {
     let arrNumbers = [];
-
-    /* Con el bucle do..while crea un array de 10 números. Retorna el array*/
-
+/* Con el bucle do..while crea un array de 10 números. Retorna el array*/
 }
 
 export function makePizza() {
@@ -16,6 +20,9 @@ export function makePizza() {
 
     let pizza = {};
     let ingredients = ['masa', 'tomate', 'mozzarella', 'cheddar', 'gorgonzola', 'parmesano'];
+
+    for (i= 0; i = ingredients.length; i++);
+    makePizza = (ingredients[i]);
 
     return pizza;
 

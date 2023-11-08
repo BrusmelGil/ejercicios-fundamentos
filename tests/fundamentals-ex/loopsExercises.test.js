@@ -3,11 +3,11 @@ import { addSpanishInternationalPrefixes, countdown, createNumberList, makePizza
 
 
 describe('Loops', () => {
-    it.skip('while loop, should return GO when count arrive to 0', () => {
+    it('while loop, should return GO when count arrive to 0', () => {
         expect(countdown()).toEqual('GO');
     });
 
-    it.skip('do ... while', () => {
+    it('do ... while', () => {
         expect(createNumberList()[0]).toEqual(1); // comprueba que el primer número sea el uno
         expect(createNumberList()).toContain(10); // comprueba que el array contiene el número 10
         expect(createNumberList()).toHaveLength(10); // comprueba que la longitud del array es de 10

@@ -25,10 +25,7 @@ return numb1 - 25;
 
 }
 
-export function multiply(numbOne) {
-return numbOne * 5;
 
-}
 
 export function divide(numbOne) {
 return numbOne / 2

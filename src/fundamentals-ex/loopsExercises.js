@@ -43,10 +43,14 @@ export function addSpanishInternationalPrefixes() {
     /* Añade el prefijo internacional de españa a los números de teléfonos del array (+34-). Utiliza el bucle foreach */
     let phoneNumberList = ['054060719', '029830776', '159949736', '663170151', '513407584'];
 
-    phoneNumberList.forEach(function(number) {
-      addSpanishInternationalPrefixes .push(`+34-${number}`);
-      });
-    
-      return result;
-    }
+    phoneNumberList.forEach(function (number, index, array) {
+
+        let 
+
+        array[index] = number
+
+    })
+
+    return phoneNumberList
+
 }

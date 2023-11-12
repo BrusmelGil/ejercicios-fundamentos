@@ -2,7 +2,7 @@ import { describe, it } from "vitest";
 import { compareNumbers, isGreaterThan10, isGreaterThan10AndEqualTo20, isJane } from "../../src/fundamentals-ex/comparisonExercises.js";
 
 describe('Comparison Exercises', () => {
-    it.skip('using == should be equal to Jane', () => {
+    it('using == should be equal to Jane', () => {
         const name = 'Jane';
         expect(isJane(name)).toEqual('Jane');
     });

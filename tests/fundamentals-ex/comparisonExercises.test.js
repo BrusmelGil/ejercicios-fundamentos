@@ -7,7 +7,7 @@ describe('Comparison Exercises', () => {
         expect(isJane(name)).toEqual('Jane');
     });
 
-    it.skip('using === should return 10', () => {
+    it('using === should return 10', () => {
         let number1 = '10';
         let number2 = '10';
         expect(compareNumbers(number1,number2)).toEqual(10);

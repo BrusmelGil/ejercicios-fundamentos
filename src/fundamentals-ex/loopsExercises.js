@@ -35,7 +35,7 @@ export function makePizza() {
     for (let i = 0; i < ingredients.length; i++) {
     pizza[`ingredient${i + 1}`] = ingredients[i];
     }
-return pizza
+return pizza 
 
 }
 
@@ -43,6 +43,11 @@ export function addSpanishInternationalPrefixes() {
     /* Añade el prefijo internacional de españa a los números de teléfonos del array (+34-). Utiliza el bucle foreach */
     let phoneNumberList = ['054060719', '029830776', '159949736', '663170151', '513407584'];
 
+    phoneNumberList.forEach((number, index, array) => {
+        array[index] = '+34-' + number;
+    });
+
+    return phoneNumberList;
 
 }
 
